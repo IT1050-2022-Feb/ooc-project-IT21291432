@@ -120,19 +120,7 @@ CustomerServiceAgent::~CustomerServiceAgent()
 
 
 
-#include <iostream>   //main program
-using namespace std;
-#include "Blog.h"
-#include "Enrollment.h"
-#include "Registered_Customer.h"
-#include "Trainer.h"
-#include "User.h"
-#include "Doctor.h"
-#include "Order.h"
-#include "Equipment.h"
-#include "FoodSupplement.h"
-#include "CustomerServiceAgent.h"
-
+//main program
 int main(){
 //Creating objects
     Registered_Customer* r1 = new Registered_Customer("Supun Imesh", "supunimesh00@gmail.com", "BSK1065", 0784629654);
